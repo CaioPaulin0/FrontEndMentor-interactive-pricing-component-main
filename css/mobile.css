@@ -1,0 +1,77 @@
+@media (max-width: 850px){
+    .container{
+        background-size: auto;
+    }
+
+    .containerText{
+        width: 24rem;
+    }
+
+    .containerText h1{
+        font-size: 1.8rem;
+    }
+    
+    .containerText h2{
+        width: 18rem;
+        margin: auto;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .pricingComponent{
+        width: 24rem;
+    }
+
+    .pricingValue{
+        width: 21rem;
+        height: 14rem;
+    }
+
+    .pricingValue span{
+        font-size: 1rem;
+        margin: auto;
+    }
+
+    .pricingValue span:nth-child(2){
+        order: 2;
+    }
+
+    .inputRange{
+        width: 21rem;
+    }
+
+    .inputRange input{
+        width: 21rem;
+        order: 2;
+    }
+
+    .pricingTimer{
+        width: 21rem;
+        font-size: 1rem;
+        justify-content: space-between;
+    }
+
+    .monthlyAct{
+        margin-left: 8px;
+    }
+
+    .yBiling:after{
+        content: '-25%';
+        margin-left: 0;
+    }
+
+    .princingEnd{
+        width: 24rem;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .princingEnd button{
+        margin: auto;
+    }
+
+    .pricingEndContainer{
+        height: 6.25rem;
+        margin: auto;
+    }
+}

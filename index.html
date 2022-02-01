@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="containerText">
+      <h1> Simple, traffic-based pricing</h1>
+      <h2>Sign-up for our 30-day trial.No credit card required</h2>
+    </div>
+    <div class="pricingComponent">
+      <div class="pricingValue">
+         <span id="pageview">50K PAGEVIEW</span>
+         <span> <strong id="valueMonth">$12.00</strong>/month</span>
+
+         <div class="inputRange">    
+
+          <div id="slider">
+  
+            <div id="progressBar"></div>
+          </div>
+          <input type="range" id="pricingValueRange">
+        </div>
+      </div>
+        
+      <div class="pricingTimer">
+        <div style="display: flex;">
+          <span>Monthly Billing</span>
+          <div class="monthlyAct">
+            <div class="circle"></div>
+          </div>
+        </div>
+        <div class="yBiling">
+          <span>Yearly Billing</span>
+        </div>
+      </div>
+
+      <div class="princingEnd">
+        <div class="pricingEndContainer">
+         <ul>
+           <li><img src="/images/icon-check.svg"> Unlimited websites</li>
+           <li><img src="/images/icon-check.svg"> 100% data ownership</li>
+           <li><img src="/images/icon-check.svg"> Email reports</li>
+         </ul>
+        </div>
+
+        <button>Start my trial</button>
+      </div>
+    </div>
+  </div>
+
+
+<script src="/js/index.js"></script>
+</body>
+</html>
