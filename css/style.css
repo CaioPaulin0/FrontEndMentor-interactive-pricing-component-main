@@ -11,7 +11,7 @@ body{
 .container{
     height: 50rem;
     background-color: #f7f7f7;
-    background-image: url('/images/bg-pattern.svg');
+    background-image: url('./images/bg-pattern.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -21,7 +21,7 @@ body{
 .containerText{
     width: max-content;
     height: 150px;
-    background-image: url('/images/pattern-circles.svg');
+    background-image: url('./images/pattern-circles.svg');
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
