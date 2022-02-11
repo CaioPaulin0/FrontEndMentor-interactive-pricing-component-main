@@ -1,26 +1,23 @@
 
+import toggle from './toggleBox.js'
+
 const pricingValue = document.getElementById('pricingValueRange')
 
 const progressbar = document.getElementById('progressBar')
 
-const slide = document.getElementById('slider')
-
-const input = document.querySelector('.circle')
+const input = document.querySelector('.checked')
 
 pricingValue.addEventListener('mousemove', function(){
     progressbar.style.width = pricingValue.value + '%'
 
-    const pricingValueN = Number(pricingValue.value)
     value(input)
-
+    
 })
 
 input.addEventListener('click',function(){
-    if(input.checked){
-        discValue()
-    } else{
-        value()
-    }
+
+    value(input)
+
 })
 
 function value(input){

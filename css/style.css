@@ -149,35 +149,6 @@ body{
     margin-left: 1.1rem;
 }
 
-.monthlyAct{
-    width: 60px;
-    height: 32px;
-    background-color: #dbdbdb;
-    border-radius: 40px;
-    cursor: pointer;
-    margin-left: 17px;
-}
-
-.mActive{
-    background-color: hsl(174, 77%, 80%);
-}
-
-.circle{
-    width: 26px;
-    height: 26px;
-    background-color: #f7f7f7;
-    border-radius: 50%;
-    position: relative;
-    top: 3px;
-    left: 3px;
-    transition: 0.2s;
-}
-
-.active{
-    position: relative;
-    left: 30px;
-}
-
 .princingEnd{
     width: 100%;
     padding-top: 2.5rem;
@@ -225,4 +196,42 @@ body{
     height: 10px;
     background-color: hsl(174, 86%, 45%);
     border-radius: 20px;
+}
+
+.checkBox{
+    width: 50px;
+    height: 20px;
+    padding: 5px 0;
+    background-color: #dbdbdb;
+    border-radius: 30px;
+    margin: auto 0;
+    margin-left: 1.1rem;
+}
+
+.checkBox input{
+  cursor: pointer;
+  width: 0;
+}
+
+.checkBox input::before{
+    content: '';
+    display: block;
+    height: 20px;
+    width: 20px;
+    
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    position: relative;
+    top: -4.5px;
+    left: 5px;
+    transition: 0.2s;
+}
+
+.checkBox input:checked::before{
+    position: relative;
+    left: 26px;
+}
+
+.active{
+    background-color: #10d5c2;
 }
