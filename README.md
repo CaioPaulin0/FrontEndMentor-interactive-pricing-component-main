@@ -1,8 +1,23 @@
 # FrontEndMentor-interactive-pricing-component-main
 
-<a href="https://inspiring-wiles-c1bfa5.netlify.app/">site</a>
+<h3>Desafio feito na plataforma <a href="https://www.frontendmentor.io/">FrontEndMentor</a>, com um intuito de desafiar suas habilidades.</h3>
+<h4>Tecnologias utilizadas</h4>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JAVASCRIPT</li>
+</ul>
 
-<img src="https://i.postimg.cc/MHJC8hQM/Sem-t-tulo.png">
-<img src="https://i.postimg.cc/Hs2ffvsn/111.png">
+<a href="https://inspiring-wiles-c1bfa5.netlify.app/">Link do Projeto</a> </br>
+<a href="https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8">Link do desafio</a>
 
-<img src="https://media.giphy.com/media/CXBlF5xa9J0t7DKv5Q/giphy.gif">
+<div>
+<strong>Versão Desktop</strong>
+  </br>
+<img src="https://im2.ezgif.com/tmp/ezgif-2-0332bd1186.gif">
+</div>
+<div>
+<strong>Mobile Desktop</strong>
+  </br>
+<img src="https://im2.ezgif.com/tmp/ezgif-2-16402aa6db.gif">
+</div>
