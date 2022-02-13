@@ -14,10 +14,10 @@
 <div>
 <strong>Versão Desktop</strong>
   </br>
-<img src="https://im2.ezgif.com/tmp/ezgif-2-0332bd1186.gif">
+<img src="https://i.postimg.cc/YCpG049N/Sem-t-tulo.png">
 </div>
 <div>
 <strong>Mobile Desktop</strong>
   </br>
-<img src="https://im2.ezgif.com/tmp/ezgif-2-16402aa6db.gif">
+<img src="https://i.postimg.cc/rFGRqG8F/111.png">
 </div>
