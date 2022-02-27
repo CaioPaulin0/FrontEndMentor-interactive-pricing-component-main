@@ -17,7 +17,7 @@
 <img src="https://i.postimg.cc/YCpG049N/Sem-t-tulo.png">
 </div>
 <div>
-<strong>Mobile Desktop</strong>
+<strong>Versão Mobile</strong>
   </br>
 <img src="https://i.postimg.cc/rFGRqG8F/111.png">
 </div>
